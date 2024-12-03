@@ -1,0 +1,119 @@
+
+
+.welcome-container h2 {
+  color: #fcfcfc;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.HomePage{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.HomePage h1 {
+  color: #fcfcfc; /* 深灰色字体 */
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.HomePage h3 {
+  color: #fcfcfc;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.SectionA {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.SectionA h4 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionA h3 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionB {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.SectionB h4 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionB h3 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionC {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.SectionC h4 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionC h3 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+SectionD {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.SectionD h4 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionD h3 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+SectionE {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  z-index: 1; 
+}
+.SectionE h4 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.SectionE h3 {
+  color: #fcfcfc; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
