@@ -9,6 +9,7 @@ import CarPark2 from './Car2.js';
 import CarPark3 from './Car3.js';
 import CarPark4 from './Car4.js';
 import CarPark5 from './Car5.js';
+import ParkingMap from './ParkingMap.js';
 import parkingBg from './image/parking_bg.jpg';
 import parkingBgv from './image/parking_bgv.mov';
 
@@ -93,7 +94,10 @@ function App() {
             slotE={slotE} allSlotE={allSlotE}
           />
         }>
-          <Route index element={<Welcome />} />
+        <Route path = "map" element = {
+            <ParkingMap/>
+          }/>
+        <Route index element={<Welcome />} />
           <Route path = "a" element = {
             <CarPark1 
               slot={slotA} setSlot={setSlotA} allSlot={allSlotA}
@@ -123,7 +127,7 @@ function App() {
               slot={slotE} setSlot={setSlotE} allSlot={allSlotE}
               grid={gridE} setGrid={setGridE}
             />}
-          />
+          />    
         </Route>
       </Routes>
     </BrowserRouter>
