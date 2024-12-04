@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import "./css/Welcome.css";
+
 import HomePage from './HomePage.js';
 import Welcome from './Welcome.js';
 import CarPark1 from './Car1.js';
@@ -10,6 +10,7 @@ import CarPark3 from './Car3.js';
 import CarPark4 from './Car4.js';
 import CarPark5 from './Car5.js';
 import parkingBg from './image/parking_bg.jpg';
+import parkingBgv from './image/parking_bgv.mov';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -24,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
     background-size: cover;
     background-position: center;
     position: relative; 
+    overflow: hidden;
   }
 
   body::before {
@@ -34,8 +36,20 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     background-color: rgba(25, 26, 26, 0.925); /* 黑色半透明覆盖 */
-    z-index: -1; /* 放在内容后面 */
+    z-index: -2; /* 放在内容后面 */
   }
+`;
+
+const VideoBackground = styled.video`
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /* 中心对齐 */
+width: 100%;
+height: 100%;
+object-fit: cover; /* 保证视频填满容器 */
+z-index: -1; /* 在文字下方，背景图片上方 */
+opacity: 0.1; /* 设置透明度 */
 `;
 
 function App() {  
@@ -64,6 +78,10 @@ function App() {
   return (
     <div>
     <GlobalStyle />
+    <VideoBackground autoPlay loop muted>
+        <source src={parkingBgv} type="video/mp4" />
+        Your browser does not support the video tag.
+      </VideoBackground>
     <BrowserRouter>
       <Routes>
         <Route path = "/" element = {
