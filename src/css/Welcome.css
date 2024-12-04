@@ -23,97 +23,14 @@
   font-size: 20px;
   margin-bottom: 10px;
 }
-.SectionA {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center; 
-  background-color: rgba(255, 255, 255, 0); 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-  z-index: 1; 
+
+.welcome-container a {
+  color: #f7f1f2; /* link */
+  text-decoration: none; /* _____x */
+  font-size: 18px;
 }
-.SectionA h4 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionA h3 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionB {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0); 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-  z-index: 1; 
-}
-.SectionB h4 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionB h3 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionC {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0); 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-  z-index: 1; 
-}
-.SectionC h4 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionC h3 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-SectionD {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0); 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-  z-index: 1; 
-}
-.SectionD h4 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionD h3 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-SectionE {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0); 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-  z-index: 1; 
-}
-.SectionE h4 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.SectionE h3 {
-  color: #fcfcfc; 
-  font-size: 30px;
-  margin-bottom: 10px;
+
+.welcome-container a:hover {
+  color: #ec3c10; /* 深蓝色悬停效果 */
+  text-decoration: underline; /* 悬停时显示下划线 */
 }
