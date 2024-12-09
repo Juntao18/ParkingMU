@@ -10,7 +10,7 @@ Important：
 	//Deleted：npm install @react-google-maps/api  
 
 Project Title
-	Individual Project
+	Individual Project：
 	Smart Parking Management for Campus Life Improvement
 
 Project Theme:Life Improvement	
